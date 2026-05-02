@@ -1,0 +1,1 @@
+var jogador = {  nome: "Aragorn",  classe: "Guerreiro",  nivel: 25,  forca: 18,  agilidade: 12};for (var atributo in jogador) {  console.log("O atributo " + atributo + " tem valor " + jogador[atributo]);}
